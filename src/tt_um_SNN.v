@@ -15,7 +15,8 @@ module tt_um_SNN
 
 
     // use bidirectionals as outputs
-    // assign uio_oe = 8'b11111111;
+    assign uio_oe = 8'b00000000;
+    assign uo_out[7:2] = 6'd0;
 
     // instantiate segment display
     spiking_network spiking_network_demo(.clk(clk), .neuron_1(ui_in[0]), .neuron_2(ui_in[1]), .neuron_3(ui_in[2]),
