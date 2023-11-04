@@ -27,7 +27,7 @@ module spike_neuron (clk, neuron_in1, neuron_in2, neuron_in3,
   reg neuron_i_reg = 0;
   
   // Neuron Dynamics/Equation (the long equation: how does the membrane potential is calculated from inputs)
-  always @(posedge clk) begin
+  always@(posedge clk) begin
     neuron_i_reg = 0; 
     V_i = V_i + (w1i*neuron_in1 + w2i*neuron_in2 + w3i*neuron_in3) - V_leak;
     if (V_i >= V_thresh) begin
