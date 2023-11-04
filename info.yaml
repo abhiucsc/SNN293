@@ -50,7 +50,7 @@ documentation:
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
     - spike bit a
-    - unspecified
+    - spike bit b
     - unspecified
     - unspecified
     - unspecified
