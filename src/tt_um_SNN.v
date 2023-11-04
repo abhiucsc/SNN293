@@ -19,7 +19,7 @@ module tt_um_SNN
 
     // instantiate segment display
     spiking_network spiking_network_demo(.clk(clk), .neuron_1(ui_in[0]), .neuron_2(ui_in[1]), .neuron_3(ui_in[2]),
-    .neuron_7(uo_out[0]),.neuron_8(uo_out[1]))
+    .neuron_7(uo_out[0]),.neuron_8(uo_out[1]));
 
     // leaky leaky1(.current(ui_in), .clk(clk), .rst(rst_n), .spike(uio_out[7]), .state(uo_out[7:0]));
 
