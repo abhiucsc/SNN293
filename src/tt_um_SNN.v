@@ -16,6 +16,7 @@ module tt_um_SNN
 
     // use bidirectionals as outputs
     assign uio_oe = 8'b00000000;
+    assign uio_out[7:0] = 8'd0;
     assign uo_out[7:2] = 6'd0;
 
     // instantiate segment display
