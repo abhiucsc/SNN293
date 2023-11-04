@@ -28,14 +28,14 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Spiking Train
-      Example: setting the inputs to 00010000 will program 16384 into the compare register.
-      With a 10MHz clock the counter will increment ~610 times per second.
+      Spiking pattern of the three input neurons will be used as an input.
+      The Spikes of the two output neurons can be plotted on time charts.
+      Example: 
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      After reset, the counter should increase by one every second with a 10MHz input clock.
-      Experiment by changing the inputs to change the counting speed.
+      Feed in diferent spiking patterns of the input neurons (1, 2 and 3).
+      The network will pass the spikes in the forward direction accoding to the defined weights.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
